@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Dicee Game 🎃</title>
+    <!-- CDN link to bootstrap stlesheet -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- link to CSS stylesheet  -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- CDN link to google font -->
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 mt-5">
+          <h1>Dice Challenge!</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <button>
+          <a onclick="userEntry();">Click Me !</a>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container hide">
+      <div class="row">
+        <div class="col-12">
+          <button>
+          <a onclick="play();">Play Me</a>
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <h1></h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-2">
+          <h2></h2>
+        </div>
+        <div class="col-4">
+          <div class="dice">
+            <p id="player1">Player 1</p>
+            <img class="img1" src="images/dice6.png" alt="dice-image">
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="dice">
+            <p id="player2">Player 2</p>
+            <img class="img2" src="images/dice6.png" alt="dice-image">
+          </div>
+        </div>
+        <div class="col-2 text-right">
+          <h2></h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 mt-2">
+          <button>
+          <a onclick="reset();">Restart</a>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- link to JS file -->
+    <script src="script.js" charset="utf-8"></script>
+  </body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <footer>
+          www 🎲 Anurag 🎲 com
+        </footer>
+      </div>
+    </div>
+  </div>
+
+</html>
